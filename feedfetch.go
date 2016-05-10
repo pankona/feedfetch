@@ -7,7 +7,8 @@ import (
 )
 
 // TODO: parameterize
-const url = "http://blog.tok.access-company.com/feed/atom"
+//const url = "http://blog.tok.access-company.com/feed/atom"
+const url = "http://10.7.250.105/feed/atom"
 
 func main() {
 	timeout := 5
