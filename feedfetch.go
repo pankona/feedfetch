@@ -18,7 +18,7 @@ func main() {
 
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "[e] %s: %s", url, err)
-		return
+		os.Exit(1)
 	}
 }
 
